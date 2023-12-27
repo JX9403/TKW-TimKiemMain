@@ -195,4 +195,19 @@
     left: 20px;
     font-size: 1.8rem;
   }
+
+   /* popup */
+
+.popup {
+ 
+  width:80%;
+
+}
+
+.popup h2 {
+  
+  font-size: 1.8rem;
+
+}
+
 }
