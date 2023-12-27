@@ -57,7 +57,9 @@
   .footer-content-map {
     margin-top: 20px;
   }
-
+ .acc-box {
+    top: 82px;
+  }
   .searchOne-title {
     font-size: 70px;
     margin-bottom: 40px;
@@ -68,9 +70,7 @@
     height: 68px;
   }
 
-  .acc-box {
-    top: 82px;
-  }
+ 
 }
 
 @media screen and (max-width: 768px) {
@@ -80,6 +80,10 @@
 
   .header-menu {
     font-size: 20px;
+  }
+
+  .header-menu-list {
+    top: 68px;
   }
 
   .header-search {
@@ -174,9 +178,6 @@
     right: -84px;
   }
 
-  .btn-c {
-    margin: 8px;
-  }
   .searchOne {
     padding-top: 50px;
   }
