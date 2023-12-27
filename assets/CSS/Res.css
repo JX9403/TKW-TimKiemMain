@@ -198,16 +198,19 @@
 
    /* popup */
 
+/* popup */
+
 .popup {
- 
-  width:80%;
-
+  bottom: 14px;
+  width: 80%;
+  left: 70px;
+  height: 80px;
 }
-
 .popup h2 {
-  
   font-size: 1.8rem;
-
+}
+.popup i {
+  font-size: 2rem;
 }
 
 }
