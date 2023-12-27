@@ -64,29 +64,39 @@
 
  .searchOne-recent{
   margin-top: 24px;
-  width: 800px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.searchOne-recent-box{
+  width: 20%;
+  margin-bottom: 20px;
 }
 
 .searchOne-recent-box:hover{
   text-decoration: none;
   color: var(--color-blue);
 }
+
  .searchOne-recent-box-img{
    text-align: center;
 }
+
  .searchOne-recent-box-img img{
-  width:80%;
+  width: 64%;
   height: auto;
 }
 
 .searchOne-recent-box-title{
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: 700;
   text-align: center;
 }
 
  .searchOne-recent-box-desc{
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   text-align: center;
 }
 /* End SearchOne */
